@@ -1,0 +1,51 @@
+canvas {
+    border:1px solid #d3d3d3;
+	background-color: #f1f1f1;
+}
+
+#svg {
+  stroke: #000000;
+  stroke-width: 5px;
+  vector-effect: non-scaling-stroke;
+  fill: none;
+}
+
+text {
+  stroke-width: initial;
+  fill: initial;
+}
+
+.valveClosed {
+  fill: #000000;
+}
+
+.flow {
+  fill: none;
+  stroke: black;
+  opacity: 1.0;
+  stroke-width: 4;
+  stroke-dasharray: 10, 4;
+  animation: flow 1s steps(10) infinite;
+  -webkit-animation: flow 1s steps(10) infinite;
+}
+
+
+@keyframes flow {
+  from {
+    stroke-dashoffset: 14;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes flow {
+  from {
+    stroke-dashoffset: 14;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}

@@ -1,0 +1,17 @@
+<svg id="svg"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:svg="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	x="0"
+	y="0"
+	width="100px"
+	height="100px"
+	style="stroke:#000000 ;stroke-width:5px; vector-effect: non-scaling-stroke; fill: none;">
+	<defs>
+	</defs>
+	<g transform="translate(50,50)">
+		<circle cx="0" cy="0" r="25"/>
+		<line x1="-2" y1="-23" x2="23" y2="0"/>
+		<line x1="23" y1="0" x2="-2" y2="23"/>
+	</g>
+</svg>

@@ -1,0 +1,9 @@
+<svg
+	id="svg"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="205px"
+	height="330px"
+	style="fill: rgb(0, 255, 255)">
+	<rect x="2.5" y="2.5" stroke="black" id="e1_rectangle" style="stroke-width: 5px; vector-effect: non-scaling-stroke;" width="200" height="325" rx="20" ry="20"/>
+</svg>
